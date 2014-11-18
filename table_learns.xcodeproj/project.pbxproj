@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		210256F51A1BD30200325E0B /* dwarf_detail_view_controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 210256F41A1BD30200325E0B /* dwarf_detail_view_controller.m */; };
 		2163C36C1A1BAA7500E811A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2163C36B1A1BAA7500E811A1 /* main.m */; };
 		2163C36F1A1BAA7500E811A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2163C36E1A1BAA7500E811A1 /* AppDelegate.m */; };
 		2163C3721A1BAA7500E811A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2163C3711A1BAA7500E811A1 /* ViewController.m */; };
@@ -14,6 +15,7 @@
 		2163C3771A1BAA7500E811A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2163C3761A1BAA7500E811A1 /* Images.xcassets */; };
 		2163C37A1A1BAA7500E811A1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2163C3781A1BAA7500E811A1 /* LaunchScreen.xib */; };
 		2163C3861A1BAA7500E811A1 /* table_learnsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2163C3851A1BAA7500E811A1 /* table_learnsTests.m */; };
+		21F227551A1BE14B005AAD82 /* character.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F227541A1BE14B005AAD82 /* character.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		210256F31A1BD30200325E0B /* dwarf_detail_view_controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dwarf_detail_view_controller.h; path = ../dwarf_detail_view_controller.h; sourceTree = "<group>"; };
+		210256F41A1BD30200325E0B /* dwarf_detail_view_controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = dwarf_detail_view_controller.m; path = ../dwarf_detail_view_controller.m; sourceTree = "<group>"; };
 		2163C3661A1BAA7500E811A1 /* table_learns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = table_learns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2163C36A1A1BAA7500E811A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2163C36B1A1BAA7500E811A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +44,8 @@
 		2163C37F1A1BAA7500E811A1 /* table_learnsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = table_learnsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2163C3841A1BAA7500E811A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2163C3851A1BAA7500E811A1 /* table_learnsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = table_learnsTests.m; sourceTree = "<group>"; };
+		21F227531A1BE14B005AAD82 /* character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = character.h; sourceTree = "<group>"; };
+		21F227541A1BE14B005AAD82 /* character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = character.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,10 @@
 		2163C3681A1BAA7500E811A1 /* table_learns */ = {
 			isa = PBXGroup;
 			children = (
+				210256F31A1BD30200325E0B /* dwarf_detail_view_controller.h */,
+				21F227531A1BE14B005AAD82 /* character.h */,
+				21F227541A1BE14B005AAD82 /* character.m */,
+				210256F41A1BD30200325E0B /* dwarf_detail_view_controller.m */,
 				2163C36D1A1BAA7500E811A1 /* AppDelegate.h */,
 				2163C36E1A1BAA7500E811A1 /* AppDelegate.m */,
 				2163C3701A1BAA7500E811A1 /* ViewController.h */,
@@ -219,6 +229,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				210256F51A1BD30200325E0B /* dwarf_detail_view_controller.m in Sources */,
+				21F227551A1BE14B005AAD82 /* character.m in Sources */,
 				2163C3721A1BAA7500E811A1 /* ViewController.m in Sources */,
 				2163C36F1A1BAA7500E811A1 /* AppDelegate.m in Sources */,
 				2163C36C1A1BAA7500E811A1 /* main.m in Sources */,
@@ -412,6 +424,7 @@
 				2163C38B1A1BAA7500E811A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2163C38C1A1BAA7500E811A1 /* Build configuration list for PBXNativeTarget "table_learnsTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +433,7 @@
 				2163C38E1A1BAA7500E811A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
